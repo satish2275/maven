@@ -15,7 +15,6 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
     <jacoco.version>0.7.5.201505241946</jacoco.version>
-    <junit.version>4.12</junit.version>
   </properties>
 
   <modules>
@@ -240,7 +239,7 @@
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit-dep</artifactId>
-        <version>${junit.version}</version>
+        <version>4.10</version>
         <scope>test</scope>
       </dependency>
 
